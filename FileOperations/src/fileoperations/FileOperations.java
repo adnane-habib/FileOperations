@@ -18,34 +18,34 @@ public class FileOperations {
 		
 		Scanner scanner = new Scanner(System.in);
 		boolean exist = false;
-		
+		// interactive menu
 		while ( !exist) {
 			System.out.println("Choose an option:");
-			System.out.println("1. Create file");
-			System.out.println("2. Write to file");
-			System.out.println("3. Read from file");
-			System.out.println("4. Update to file");
-			System.out.println("5. Delete file");
+			//System.out.println("1. Create file");
+			System.out.println("1. Write to file");
+			System.out.println("2. Read from file");
+			System.out.println("3. Update to file");
+			//System.out.println("5. Delete file");
 			System.out.println("6. Exit");
 			
 			int option = scanner.nextInt();
-			
+			// switch case to handle the different options
 			switch (option) {			
+//			case 1:
+//				createFile();
+//				break;			
 			case 1:
-				createFile();
-				break;			
-			case 2:
 				writeToFile();
 				break;
-			case 3:
+			case 2:
 				readFromFile();
 				break;
-			case 4:
+			case 3:
 				updateFile();
 				break;
-			case 5:
-				deleteFile();
-				break;
+//			case 5:
+//				deleteFile();
+//				break;
 			case 6:
 				exist = true;System.out.println("We hope to see you next time.");
 				break;	
