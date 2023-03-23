@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class FileOperations {
-	private static final String FILE_NAME = "myAdnaneExample.txt";
+	private static final String FILE_NAME = "myFileExample.txt";
 	
 	public static void main(String[] args) {
 		
